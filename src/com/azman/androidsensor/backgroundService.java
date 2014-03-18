@@ -4,6 +4,8 @@
 
 /// we started to implement feature 1 but not finished yet
 
+// we finished feature 1
+
 
 package com.azman.androidsensor;
 
