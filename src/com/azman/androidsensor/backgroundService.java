@@ -1,6 +1,10 @@
 /**
  * 
  */
+
+/// we started to implement feature 1 but not finished yet
+
+
 package com.azman.androidsensor;
 
 
