@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MotionVisualizer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="strCalibrateBtn">Calibrate</string>
+    <string name="strStartBtn">Start</string>
+    <string name="strStopBtn">Stop</string>
+    <string name="strRollSensitivityBtn">Roll</string>
+    <string name="strMoveSensitivityBtn">Move</string>
+    <string name="strSensitivityTxt">Set Sensitivity</string>
+    
+
+</resources>

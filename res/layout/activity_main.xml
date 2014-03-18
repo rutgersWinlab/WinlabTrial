@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actionShower"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        tools:context=".MainActivity" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strSensitivityTxt" />
+
+            <EditText
+                android:id="@+id/edtSensitivty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnRollSensitivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="btnRollSensitivity_Click"
+                android:text="@string/strRollSensitivityBtn" />
+            <Button
+                android:id="@+id/btnMoveSensitivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="btnMoveSensitivity_Click"
+                android:text="@string/strMoveSensitivityBtn" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:onClick="StartClick"
+                android:text="@string/strStartBtn" />
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:onClick="StopClick"
+                android:text="@string/strStopBtn" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnCalibrate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="CalibrateClick"
+                android:text="@string/strCalibrateBtn" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
